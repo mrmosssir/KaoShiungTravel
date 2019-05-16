@@ -1,0 +1,29 @@
+.pagebar {
+    display: flex;
+    margin-top: $space-40;
+    margin-bottom: $space-40;
+    justify-content: center;
+    a {
+        text-decoration: none;
+    }
+    >a {     
+        margin-left: $space-30;
+        margin-right: $space-30;
+        &:hover {
+            color: $blue-light;
+        }
+    }
+    
+}
+
+.pagebar-group {
+    display: flex;
+}
+
+.pagebar-item {
+    margin-left: $space-10;
+    margin-right: $space-10;
+    a:hover {
+        color: $blue-light;
+    }
+}

@@ -1,0 +1,41 @@
+.infocard {
+    width: 100%;
+    margin-top: $space-35;
+    @include shadow-center($black-20);
+    .infocard-img {
+        width: 100%;
+        height: 155px;
+        @include bg-align;
+    }
+    .infocard-item {
+        display: flex;
+        padding: $space-20 $space-20;
+    }
+}
+
+.infocard-content {
+    width: 80%;
+}
+
+.infocard-content li {
+    padding-top: $space-15;
+    @include cut-word;
+    img {
+        padding-right: $space-10;
+    }
+}
+
+.infocard-tag {
+    display: flex;
+    width: 30%;
+    align-items: flex-end;
+    @include cut-word;
+    margin-left: -$space-30;
+    img {
+        margin-right: $space-10;
+    }
+}
+
+.infocard-phone {
+    margin-left: 2px;
+}

@@ -1,0 +1,27 @@
+@mixin bg-align {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@mixin shadow-center($color) {
+    box-shadow: 0 0 3px $color;
+}
+
+@mixin cut-word {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@mixin m-size {
+    @media (max-width: 812px) {
+        @content;
+    }
+}
+
+@mixin s-size {
+    @media (max-width: 736px) {
+        @content;
+    }
+}

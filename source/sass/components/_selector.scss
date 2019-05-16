@@ -1,0 +1,10 @@
+.selector {
+    width: 450px;
+    height: 45px;
+    background: $white-70;
+    font-size: $font-18;
+    margin-top: $space-95;
+    @include s-size {
+        width: 65%;
+    }
+}

@@ -1,0 +1,48 @@
+
+// color
+    $white: #ffffff;
+    $white-70: rgba(255, 255, 255, .7);
+    $black: #000000;
+    $black-20: rgba(0, 0, 0, .2);
+    $gray: #4a4a4a;
+    $gray-50: rgba(74, 74, 74, .5);
+    $blue-light: #559ac8;
+    $purple-light: #8a82cc;
+    $orange-light: #ffa782;
+    $yellow-light: #f5d005;
+
+$colors: (
+    white: $white,
+    white-70: $white-70,
+    black: $black,
+    black-20: $black-20,
+    gray: $gray,
+    gray-50: $gray-50,
+    b: $blue-light,
+    p: $purple-light,
+    o: $orange-light,
+    y: $yellow-light,
+);
+
+
+// font-size
+$font-14: 14px;
+$font-18: 18px;
+$font-20: 20px;
+$font-24: 24px;
+$font-36: 36px;
+$font-40: 40px;
+
+// space
+$space-0: 0px;
+$space-10: 10px;
+$space-15: 15px;
+$space-20: 20px;
+$space-25: 25px;
+$space-30: 30px;
+$space-35: 35px;
+$space-40: 40px;
+$space-50: 50px;
+$space-65: 65px;
+$space-90: 90px;
+$space-95: 95px;

@@ -1,0 +1,28 @@
+.hotlist {
+    width: 85%;
+    background: $white;
+    border-radius: 5px;
+    @include shadow-center($black-20);
+    padding: $space-20 $space-25;
+    margin: 0 auto;
+    margin-top: -$space-30;
+    @include m-size {
+        display: none;
+    }
+    .hotlist-title {
+        font-size: $font-18;
+    }
+}
+.hotlist-group {
+    display: flex;
+}
+.hotlist-item {
+    color: $white;
+    text-decoration: none;
+    font-size: $font-20;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: $space-10 $space-35;
+    margin-left: $space-25;
+    margin-top: $space-15;
+}

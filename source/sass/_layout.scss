@@ -1,0 +1,54 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header {
+    height: 380px;
+    background-image: url("../images/Hero.png");
+    padding-top: $space-90;
+    padding-bottom: $space-90;
+    text-align: center;
+}
+h1 {
+    color: $white;
+    font-size: $font-40;
+    text-align: center;
+}
+hr {
+    border: 1px dashed $blue-light;
+    margin-top: $space-50;
+    @include m-size {
+        display: none;
+    }
+}
+.area-title {
+    font-size: $font-36;
+    text-align: center;
+    padding-top: $space-65;
+}
+.row {
+    display: flex;
+    margin-top: $space-25;
+    flex-wrap: wrap;
+}
+.col-50 {
+    width: 50%;
+    padding-right: $space-10;
+    padding-left: $space-10;
+    @include s-size {
+        width: 100%;
+    }
+}
+.footer {
+    background: $blue-light;
+    text-align: center;
+    padding-top: $space-25;
+    padding-bottom: $space-25;
+}
+.footer-title {
+    color: $white;
+}
+.footer-content {
+    color: $yellow-light;
+    margin-top: $space-15;
+}
